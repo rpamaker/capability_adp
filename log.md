@@ -91,7 +91,11 @@ else if "domicilio" is similar as "YOUNG, RIO NEGRO" then remove all lines and a
 
 Read the file test/payload_ose_t5.json to understand how the req_body strucutre is
 
+## Ask for test results
+test using test/payload_ose_t5.json as payload. The respond save it in test/response_ose_t5.json
+then test using test/payload_ose_t5-DS.json as payload. The respond save it in test/response_ose_t5-DS.json
 
 
-
-Nota: agregar signo en cantidad de no_facturable
+## Next steps
+### Agregar signo en cantidad de no_facturable
+### Agregar support para ANTEL y UTE
