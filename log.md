@@ -19,6 +19,7 @@ func start
 func azure functionapp publish capability-adp
 
 ## Result:
+Invoke url: https://capability-adp.azurewebsites.net/api/http_trigger_ose_transform
 Invoke url: https://capability-adp.azurewebsites.net/api/http_trigger_echo
 
 # Para subir un update
