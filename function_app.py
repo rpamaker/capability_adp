@@ -4,9 +4,9 @@ import json
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
-@app.route(route="http_trigger")
-def http_trigger(req: func.HttpRequest) -> func.HttpResponse:
-    logging.info('Python HTTP trigger function processed a request.')
+@app.route(route="http_trigger_echo")
+def http_trigger_echo(req: func.HttpRequest) -> func.HttpResponse:
+    logging.info('Python HTTP trigger function processed the ECHO request.')
 
     try:
         req_body = req.get_json()
@@ -17,12 +17,11 @@ def http_trigger(req: func.HttpRequest) -> func.HttpResponse:
         )
 
     # Ejemplo: responder con parte del payload
-    rut = req_body.get("rut", "undefined")
-    total = req_body.get("total_amount", 0)
+    rut = req_body.get("referencia_de_cobro", "undefined")
 
     result = {
         "status": "ok",
-        "message": f"Procesado RUT: {rut}, Total: {total}",
+        "message": f"Procesado RUT: {rut}",
         "received": req_body
     }
     logging.info(f"Processed data: {result}")

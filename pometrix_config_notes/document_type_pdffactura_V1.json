@@ -1,0 +1,93 @@
+{
+    "type": "object",
+    "required": [
+        "fecha",
+        "codigo",
+        "moneda",
+        "proveedor_nombre",
+        "proveedor_id",
+        "neto",
+        "IVA",
+        "total",
+        "items"
+    ],
+    "properties": {
+        "IVA": {
+            "type": "number",
+            "description": "Importe del IVA de la factura"
+        },
+        "neto": {
+            "type": "number",
+            "description": "Importe neto de la factura"
+        },
+        "fecha": {
+            "type": "string",
+            "description": "Fecha de emision de la factura"
+        },
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "descripcion",
+                    "cantidad",
+                    "p_unitario",
+                    "monto"
+                ],
+                "properties": {
+                    "monto": {
+                        "type": "number",
+                        "description": "Monto del item"
+                    },
+                    "cantidad": {
+                        "type": "number",
+                        "description": "Cantidad de unidades"
+                    },
+                    "p_unitario": {
+                        "type": "number",
+                        "description": "Precio unitario del item"
+                    },
+                    "descripcion": {
+                        "type": "string",
+                        "description": "Descripción del item"
+                    }
+                }
+            },
+            "description": "Listado de ítems incluidos en la factura"
+        },
+        "total": {
+            "type": "number",
+            "description": "Importe total de la factura"
+        },
+        "codigo": {
+            "type": "string",
+            "description": "Número y serie de Factura"
+        },
+        "moneda": {
+            "enum": [
+                "UYU",
+                "USD",
+                "EUR"
+            ],
+            "type": "string",
+            "description": "Moneda de la factura"
+        },
+        "tax_cod": {
+            "enum": [
+                "22%",
+                "10%",
+                "0%"
+            ],
+            "type": "string",
+            "description": "Indicador de impuestos"
+        },
+        "proveedor_id": {
+            "type": "string",
+            "description": "ID BIC RUT del proveedor"
+        },
+        "proveedor_nombre": {
+            "type": "string",
+            "description": "Nombre del proveedor"
+        }
+    }
+}

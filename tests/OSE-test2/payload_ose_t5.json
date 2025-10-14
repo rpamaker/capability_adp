@@ -1,0 +1,53 @@
+{
+    "IVA": 2445.75,
+    "neto": 11117.03,
+    "fecha": "06/10/2025",
+    "items": [
+        {
+            "monto": 1392.33,
+            "cantidad": 1,
+            "p_unitario": 1392.33,
+            "descripcion": "Cargo Fijo Agua Potable (G)"
+        },
+        {
+            "monto": 181.84,
+            "cantidad": 1,
+            "p_unitario": 181.84,
+            "descripcion": "Cargo Fijo Agua Potable (G)"
+        },
+        {
+            "monto": 9507.46,
+            "cantidad": 61,
+            "p_unitario": 155.86,
+            "descripcion": "Consumo Agua Potable Básico (G)"
+        },
+        {
+            "monto": 35.4,
+            "cantidad": 1,
+            "p_unitario": 35.4,
+            "descripcion": "Costo de impresión y envío"
+        },
+        {
+            "monto": 0.22,
+            "cantidad": 1,
+            "p_unitario": 0.22,
+            "descripcion": "Ajuste por Redondeo"
+        }
+    ],
+    "total": 13563,
+    "codigo": "B 8390211",
+    "moneda": "UYU",
+    "tax_cod": "22%",
+    "domicilio": "YOUNG, RIO NEGRO",
+    "__mcp_status": "TAG",
+    "proveedor_id": "211962820014",
+    "no_facturable": 0.22,
+    "__mcp_timestamp": "2025-10-14T18:41:35.275828+00:00",
+    "proveedor_nombre": "Obras Sanitarias del Estado",
+    "__mcp_document_id": 3973,
+    "__mcp_human_status": "PROCESSING",
+    "__mcp_reference_key": null,
+    "subtotal_gravado_22": 11117.03,
+    "__mcp_document_file_url": "https://rpamaker.blob.core.windows.net/adp/Documents/invoice/ADP S.A._ADMINISTRACION DE LAS OBRAS SANITARIAS DEL ESTADO_EFacturaB8390211.pdf",
+    "__mcp_document_file_name": "ADP S.A._ADMINISTRACION DE LAS OBRAS SANITARIAS DEL ESTADO_EFacturaB8390211.pdf"
+}
