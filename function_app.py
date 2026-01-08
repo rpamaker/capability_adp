@@ -22,6 +22,7 @@ PROVIDER_RULES = [
                 "TaxCode": "IVA_CTB2",
                 "WarehouseCode": "1",
                 "CostingCode4": "002.9999",
+                "DimCode": 4,
                 "articulos_adicionales": [
                     {
                         "ARTICULO": 13371,
@@ -29,7 +30,8 @@ PROVIDER_RULES = [
                         "Cantidad": 1,
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                "CostingCode4": "301.9998",
+                "DimCode": 4
                     }
                 ]
             },
@@ -46,7 +48,8 @@ PROVIDER_RULES = [
                         "Cantidad": 0.8,
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "002.9999"
+                        "CostingCode4": "002.9999",
+                        "DimCode": 4
                     },
                     {
                         "ARTICULO": 12220,
@@ -54,7 +57,8 @@ PROVIDER_RULES = [
                         "Cantidad": 0.1,
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "313.9999"
+                        "CostingCode4": "313.9999",
+                        "DimCode": 4
                     },
                     {
                         "ARTICULO": 12883,
@@ -70,7 +74,8 @@ PROVIDER_RULES = [
                         "Cantidad": 1.0,
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -87,7 +92,8 @@ PROVIDER_RULES = [
                         "Cantidad": 0.8,
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "002.9999"
+                        "CostingCode4": "002.9999",
+                        "DimCode": 4
                     },
                     {
                         "ARTICULO": 12220,
@@ -95,7 +101,8 @@ PROVIDER_RULES = [
                         "Cantidad": 0.1,
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "313.9999"
+                        "CostingCode4": "313.9999",
+                        "DimCode": 4
                     },
                     {
                         "ARTICULO": 12883,
@@ -111,7 +118,8 @@ PROVIDER_RULES = [
                         "Cantidad": 1.0,
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -128,7 +136,8 @@ PROVIDER_RULES = [
                         "Cantidad": 0.8,
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "002.9999"
+                        "CostingCode4": "002.9999",
+                        "DimCode": 4
                     },
                     {
                         "ARTICULO": 12220,
@@ -136,7 +145,8 @@ PROVIDER_RULES = [
                         "Cantidad": 0.15,
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "313.9999"
+                        "CostingCode4": "313.9999",
+                        "DimCode": 4
                     },
                     {
                         "ARTICULO": 12883,
@@ -152,7 +162,8 @@ PROVIDER_RULES = [
                         "Cantidad": 1.0,
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -169,7 +180,8 @@ PROVIDER_RULES = [
                         "Cantidad": 0.67,
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "002.9999"
+                        "CostingCode4": "002.9999",
+                        "DimCode": 4
                     },
                     {
                         "ARTICULO": 12220,
@@ -177,7 +189,8 @@ PROVIDER_RULES = [
                         "Cantidad": 0.25,
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "313.9999"
+                        "CostingCode4": "313.9999",
+                        "DimCode": 4
                     },
                     {
                         "ARTICULO": 12883,
@@ -193,7 +206,8 @@ PROVIDER_RULES = [
                         "Cantidad": 1.0,
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -203,18 +217,20 @@ PROVIDER_RULES = [
                 "Localidad": "Ombues de Lavalle",
                 "Lugar de ubicación": "Planta Semillas",
                 "Dirección del suministro": "Ruta 55 (km 27,500 a 29,500)",
-                "ARTICULO": 12565,
+                "ARTICULO": 13221,
                 "Descripción": "Electricidad (PS)",
                 "TaxCode": "IVA_CTB2",
                 "WarehouseCode": "1",
                 "CostingCode4": "368.8022",
+                "DimCode": 4,
                 "articulos_adicionales": [
                     {
                         "ARTICULO": 13371,
                         "Descripción": "Gastos no deduciables (AD)",
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -224,18 +240,20 @@ PROVIDER_RULES = [
                 "Localidad": "Dolores",
                 "Lugar de ubicación": "Oficinas Dolores",
                 "Dirección del suministro": "Avda. Asencio 1400",
-                "ARTICULO": 13360,
+                "ARTICULO": 13351,
                 "Descripción": "Electricidad (PS)",
                 "TaxCode": "IVA_CTB2",
                 "WarehouseCode": "1",
                 "CostingCode4": "301.9999",
+                "DimCode": 4,
                 "articulos_adicionales": [
                     {
                         "ARTICULO": 13371,
                         "Descripción": "Gastos no deduciables (AD)",
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -250,7 +268,8 @@ PROVIDER_RULES = [
                 "Descripción del Artículo": "Telefonía fija PS - planta Ombúes",
                 "TaxCode": "IVA_CTB2",
                 "WarehouseCode": "1",
-                "CostingCode4": "368.8022"
+                "CostingCode4": "368.8022",
+                "DimCode": 4
             },
             {
                 "Provedor": "ANTEL",
@@ -261,7 +280,8 @@ PROVIDER_RULES = [
                 "Descripción del Artículo": "Telefonía fija AD -",
                 "TaxCode": "IVA_CTB2",
                 "WarehouseCode": "1",
-                "CostingCode4": "301.9999"
+                "CostingCode4": "301.9999",
+                "DimCode": 4
             },
             {
                 "Provedor": "ANTEL",
@@ -272,7 +292,8 @@ PROVIDER_RULES = [
                 "Descripción del Artículo": "Telefonía fija LO - planta Young",
                 "TaxCode": "IVA_CTB2",
                 "WarehouseCode": "1",
-                "CostingCode4": "001.9999"
+                "CostingCode4": "001.9999",
+                "DimCode": 4
             },
             {
                 "Provedor": "ANTEL",
@@ -283,7 +304,8 @@ PROVIDER_RULES = [
                 "Descripción del Artículo": "Telefonía fija LO - Planta R21",
                 "TaxCode": "IVA_CTB2",
                 "WarehouseCode": "1",
-                "CostingCode4": "002.9999"
+                "CostingCode4": "002.9999",
+                "DimCode": 4
             },
             {
                 "Provedor": "ANTEL",
@@ -294,7 +316,8 @@ PROVIDER_RULES = [
                 "Descripción del Artículo": "Enlace de datos AD - adm central",
                 "TaxCode": "IVA_CTB2",
                 "WarehouseCode": "1",
-                "CostingCode4": "301.9999"
+                "CostingCode4": "301.9999",
+                "DimCode": 4
             },
 
             # === REGLAS ANTEL (ANCEL) ===
@@ -308,14 +331,16 @@ PROVIDER_RULES = [
                         "Descripción del Artículo": "Enlace datos AC",
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "315.9999"
+                        "CostingCode4": "315.9999",
+                        "DimCode": 4
                     },
                     {
                         "Artiuclo": 13371,
                         "Descripción del Artículo": "Gastos no deduciables",
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -329,14 +354,16 @@ PROVIDER_RULES = [
                         "Descripción del Artículo": "Enlace datos AC",
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "315.9999"
+                        "CostingCode4": "315.9999",
+                        "DimCode": 4
                     },
                     {
                         "Artiuclo": 13371,
                         "Descripción del Artículo": "Gastos no deduciables",
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -350,14 +377,16 @@ PROVIDER_RULES = [
                         "Descripción del Artículo": "Enlace datos AC",
                         "TaxCode": "IVA_CTB2",
                         "WarehouseCode": "1",
-                        "CostingCode4": "315.9999"
+                        "CostingCode4": "315.9999",
+                        "DimCode": 4
                     },
                     {
                         "Artiuclo": 13371,
                         "Descripción del Artículo": "Gastos no deduciables",
                         "TaxCode": "IVA_EXE",
                         "WarehouseCode": "1",
-                        "CostingCode4": "301.9998"
+                        "CostingCode4": "301.9998",
+                        "DimCode": 4
                     }
                 ]
             },
@@ -375,7 +404,8 @@ PROVIDER_RULES = [
                     "Regla": "Sumar ambos y cargar bajo este artículo",
                     "TaxCode": "IVA_CTB2",
                     "WarehouseCode": "1",
-                    "CostingCode4": "301.9999"
+                    "CostingCode4": "301.9999",
+                    "DimCode": 4
                 },
                 {
                     "Articulo": 13371,
@@ -384,7 +414,8 @@ PROVIDER_RULES = [
                     "Regla": "Siempre se usa para ajustes",
                     "TaxCode": "IVA_EXE",
                     "WarehouseCode": "1",
-                    "CostingCode4": "301.9998"
+                    "CostingCode4": "301.9998",
+                    "DimCode": 4
                 }
             ]
         },{
@@ -398,7 +429,8 @@ PROVIDER_RULES = [
                     "Cantidad": 0.8,
                     "TaxCode": "IVA_CTB2",
                     "WarehouseCode": "1",
-                    "CostingCode4": "313.9999"
+                    "CostingCode4": "313.9999",
+                    "DimCode": 4
                 },
                 {
                     "Articulo": 12891,
@@ -406,7 +438,8 @@ PROVIDER_RULES = [
                     "Cantidad": 0.1,
                     "TaxCode": "IVA_CTB2",
                     "WarehouseCode": "1",
-                    "CostingCode4": "368.9999"
+                    "CostingCode4": "368.9999",
+                    "DimCode": 4
                 },
                 {
                     "Articulo": 12571,
@@ -414,7 +447,8 @@ PROVIDER_RULES = [
                     "Cantidad": 0.1,
                     "TaxCode": "IVA_CTB2",
                     "WarehouseCode": "1",
-                    "CostingCode4": "001.9999"
+                    "CostingCode4": "001.9999",
+                    "DimCode": 4
                 },
                 {
                     "Articulo": 13371,
@@ -423,7 +457,8 @@ PROVIDER_RULES = [
                     "Regla": "Redondeo",
                     "TaxCode": "IVA_EXE",
                     "WarehouseCode": "1",
-                    "CostingCode4": "301.9998"
+                    "CostingCode4": "301.9998",
+                    "DimCode": 4
                 }
             ]
         }
@@ -677,6 +712,16 @@ def transform_ute(body):
     subtotal = get_subtotal(body)
     no_facturable = parse_numeric(body.get("no_facturable", 0))
     
+    # Buscar redondeo en los items si no está en el campo no_facturable
+    if no_facturable == 0:
+        items_originales = body.get("items", [])
+        for item in items_originales:
+            desc_upper = _normalize_upper(item.get("descripcion", ""))
+            if "REDONDEO" in desc_upper:
+                no_facturable = parse_numeric(item.get("monto", 0))
+                logging.info(f"  → Redondeo detectado en items: {no_facturable:.2f}")
+                break
+    
     logging.info(f"📋 UTE - Ref: {referencia}, Subtotal: {subtotal}, No fact: {no_facturable}")
     
     rule = find_ute_rule(referencia)
@@ -697,10 +742,12 @@ def transform_ute(body):
             if articulo_int == 13371:
                 if no_facturable != 0:
                     monto = round(no_facturable, 2)
+                    # Si el monto es negativo, la cantidad también debe ser negativa
+                    cantidad_redondeo = -1 if monto < 0 else 1
                     item = {
                         "monto": monto,
-                        "cantidad": 1,
-                        "p_unitario": monto,
+                        "cantidad": cantidad_redondeo,
+                        "p_unitario": abs(monto),
                         "descripcion": descripcion,
                         "articulo": articulo_int,
                     }
@@ -730,10 +777,12 @@ def transform_ute(body):
             descripcion = _extract_descripcion(it, fallback="Ajustes o redondeos")
             if articulo_int == 13371 and no_facturable != 0:
                 monto = round(no_facturable, 2)
+                # Si el monto es negativo, la cantidad también debe ser negativa
+                cantidad_redondeo = -1 if monto < 0 else 1
                 item = {
                     "monto": monto,
-                    "cantidad": 1,
-                    "p_unitario": monto,
+                    "cantidad": cantidad_redondeo,
+                    "p_unitario": abs(monto),
                     "descripcion": descripcion,
                     "articulo": articulo_int,
                 }
@@ -765,10 +814,13 @@ def transform_ute(body):
             if articulo_int == 13371:
                 # Artículo de ajustes
                 if no_facturable != 0:
+                    monto = round(no_facturable, 2)
+                    # Si el monto es negativo, la cantidad también debe ser negativa
+                    cantidad_redondeo = -1 if monto < 0 else 1
                     new_items.append({
-                        "monto": round(no_facturable, 2),
-                        "cantidad": 1,
-                        "p_unitario": round(no_facturable, 2),
+                        "monto": monto,
+                        "cantidad": cantidad_redondeo,
+                        "p_unitario": abs(monto),
                         "descripcion": descripcion,
                         "articulo": articulo_int
                     })
@@ -790,10 +842,13 @@ def transform_ute(body):
         # Verificar si falta el artículo 13371
         has_13371 = any(item["articulo"] == 13371 for item in new_items)
         if not has_13371 and no_facturable != 0:
+            monto = round(no_facturable, 2)
+            # Si el monto es negativo, la cantidad también debe ser negativa
+            cantidad_redondeo = -1 if monto < 0 else 1
             adj_item = {
-                "monto": round(no_facturable, 2),
-                "cantidad": 1,
-                "p_unitario": round(no_facturable, 2),
+                "monto": monto,
+                "cantidad": cantidad_redondeo,
+                "p_unitario": abs(monto),
                 "descripcion": "Gastos no deducibles (AD)",
                 "articulo": 13371
             }
@@ -826,10 +881,13 @@ def transform_ute(body):
         new_items.append(base_item)
         
         if no_facturable != 0:
+            monto = round(no_facturable, 2)
+            # Si el monto es negativo, la cantidad también debe ser negativa
+            cantidad_redondeo = -1 if monto < 0 else 1
             adj_item2 = {
-                "monto": round(no_facturable, 2),
-                "cantidad": 1,
-                "p_unitario": round(no_facturable, 2),
+                "monto": monto,
+                "cantidad": cantidad_redondeo,
+                "p_unitario": abs(monto),
                 "descripcion": "Ajustes o redondeos",
                 "articulo": 13371
             }
@@ -852,10 +910,13 @@ def transform_ute(body):
         new_items.append(def_item)
         
         if no_facturable != 0:
+            monto = round(no_facturable, 2)
+            # Si el monto es negativo, la cantidad también debe ser negativa
+            cantidad_redondeo = -1 if monto < 0 else 1
             adj_item = {
-                "monto": round(no_facturable, 2),
-                "cantidad": 1,
-                "p_unitario": round(no_facturable, 2),
+                "monto": monto,
+                "cantidad": cantidad_redondeo,
+                "p_unitario": abs(monto),
                 "descripcion": "Ajustes o redondeos",
                 "articulo": 13371
             }
@@ -871,6 +932,16 @@ def transform_ose(body):
     domicilio = body.get("domicilio", "")
     subtotal = get_subtotal(body)
     no_facturable = parse_numeric(body.get("no_facturable", 0))
+    
+    # Buscar redondeo en los items si no está en el campo no_facturable
+    if no_facturable == 0:
+        items_originales = body.get("items", [])
+        for item in items_originales:
+            desc_upper = _normalize_upper(item.get("descripcion", ""))
+            if "REDONDEO" in desc_upper:
+                no_facturable = parse_numeric(item.get("monto", 0))
+                logging.info(f"  → Redondeo detectado en items: {no_facturable:.2f}")
+                break
     
     logging.info(f"📋 OSE - Domicilio: {domicilio}, Subtotal: {subtotal}, No fact: {no_facturable}")
     
@@ -941,10 +1012,12 @@ def transform_ose(body):
             if articulo_int == 13371:
                 if no_facturable != 0:
                     monto = round(no_facturable, 2)
+                    # Si el monto es negativo, la cantidad también debe ser negativa
+                    cantidad_redondeo = -1 if monto < 0 else 1
                     item = {
                         "monto": monto,
-                        "cantidad": 1,
-                        "p_unitario": monto,
+                        "cantidad": cantidad_redondeo,
+                        "p_unitario": abs(monto),
                         "descripcion": descripcion,
                         "articulo": articulo_int,
                     }
@@ -981,10 +1054,13 @@ def transform_ose(body):
         new_items.append(base)
     
     if no_facturable != 0:
+        monto = round(no_facturable, 2)
+        # Si el monto es negativo, la cantidad también debe ser negativa
+        cantidad_redondeo = -1 if monto < 0 else 1
         adj_item = {
-            "monto": round(no_facturable, 2),
-            "cantidad": 1,
-            "p_unitario": round(no_facturable, 2),
+            "monto": monto,
+            "cantidad": cantidad_redondeo,
+            "p_unitario": abs(monto),
             "descripcion": "Gastos no deducibles (AD)",
             "articulo": 13371
         }
@@ -1013,9 +1089,92 @@ def transform_antel(body):
     """Transforma items para ANTEL."""
     subtotal = get_subtotal(body)
     no_facturable = parse_numeric(body.get("no_facturable", 0))
+    items_originales = body.get("items", [])
+    adenda = body.get("adenda_de_la_factura", "")
     
     logging.info(f"📋 ANTEL - Subtotal: {subtotal}")
     
+    # Detectar caso especial PC9249 - P90285 - P90288
+    es_caso_enlaces_pc9249 = "PC9249" in adenda and "P90285" in adenda and "P90288" in adenda
+    
+    if es_caso_enlaces_pc9249:
+        logging.info("✅ Detectado caso especial: SERVICIO PC9249 - P90285 - P90288 → Artículo 13342")
+        logging.info("🔄 Generando renglones separados por tipo de IVA")
+        
+        # Obtener monto gravado 22% directamente del campo subtotal_gravado_22
+        monto_gravado_22 = parse_numeric(body.get("subtotal_gravado_22", 0))
+        logging.info(f"  ✓ Monto gravado 22%: {monto_gravado_22:.2f} (subtotal_gravado_22)")
+        
+        # Sumar items NO GRAVADOS para el monto exento
+        monto_exento = 0.0
+        monto_redondeo = 0.0
+        
+        for item in items_originales:
+            desc_upper = _normalize_upper(item.get("descripcion", ""))
+            monto = parse_numeric(item.get("monto", 0))
+            
+            if "REDONDEO" in desc_upper:
+                monto_redondeo += monto
+                logging.info(f"  → Redondeo: {monto:.2f}")
+            elif "NO GRAVADO" in desc_upper or "EXENTO" in desc_upper:
+                monto_exento += monto
+                logging.info(f"  → Exento (NO GRAVADO): {monto:.2f}")
+        
+        new_items = []
+        
+        # 1. Renglón gravado al 22% (si existe)
+        if monto_gravado_22 != 0:
+            item_gravado = {
+                "monto": round(monto_gravado_22, 2),
+                "cantidad": 1,
+                "p_unitario": round(monto_gravado_22, 2),
+                "descripcion": "Telefonía / Datos",
+                "articulo": 13342,
+                "TaxCode": "IVA_CTB2",
+                "WarehouseCode": "1",
+                "CostingCode4": "301.9999"
+            }
+            new_items.append(item_gravado)
+            logging.info(f"  ➤ Item gravado 22%: {monto_gravado_22:.2f} (Art. 13342, IVA_CTB2)")
+        
+        # 2. Renglón exento (si existe)
+        if monto_exento != 0:
+            item_exento = {
+                "monto": round(monto_exento, 2),
+                "cantidad": 1,
+                "p_unitario": round(monto_exento, 2),
+                "descripcion": "Telefonía / Datos",
+                "articulo": 13342,
+                "TaxCode": "IVA_EXE",
+                "WarehouseCode": "1",
+                "CostingCode4": "301.9999"
+            }
+            new_items.append(item_exento)
+            logging.info(f"  ➤ Item exento: {monto_exento:.2f} (Art. 13342, IVA_EXE)")
+        
+        # 3. Renglón redondeo (si existe)
+        if monto_redondeo != 0 or no_facturable != 0:
+            monto_ajuste = monto_redondeo if monto_redondeo != 0 else no_facturable
+            monto = round(monto_ajuste, 2)
+            # Si el monto es negativo, la cantidad también debe ser negativa
+            cantidad_redondeo = -1 if monto < 0 else 1
+            item_redondeo = {
+                "monto": monto,
+                "cantidad": cantidad_redondeo,
+                "p_unitario": abs(monto),
+                "descripcion": "Gastos no deducibles (AD)",
+                "articulo": 13371,
+                "TaxCode": "IVA_EXE",
+                "WarehouseCode": "1",
+                "CostingCode4": "301.9998"
+            }
+            new_items.append(item_redondeo)
+            logging.info(f"  ➤ Item redondeo: {monto:.2f} (Art. 13371, IVA_EXE)")
+        
+        logging.info(f"✅ Generados {len(new_items)} renglones para caso PC9249")
+        return new_items
+    
+    # Flujo normal para otros casos de ANTEL
     rule = find_antel_rule(body)
     
     articulo = 13340
@@ -1066,10 +1225,13 @@ def transform_antel(body):
         new_items = [base_item]
     
     if no_facturable != 0:
+        monto = round(no_facturable, 2)
+        # Si el monto es negativo, la cantidad también debe ser negativa
+        cantidad_redondeo = -1 if monto < 0 else 1
         adj_item = {
-            "monto": round(no_facturable, 2),
-            "cantidad": 1,
-            "p_unitario": round(no_facturable, 2),
+            "monto": monto,
+            "cantidad": cantidad_redondeo,
+            "p_unitario": abs(monto),
             "descripcion": "Gastos no deducibles (AD)",
             "articulo": 13371
         }

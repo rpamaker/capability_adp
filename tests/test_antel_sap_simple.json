@@ -1,0 +1,96 @@
+{
+    "test_input": {
+        "IVA": 14517.65,
+        "neto": 70012.65,
+        "fecha": "01/11/2025",
+        "items": [
+            {
+                "monto": 65927.87,
+                "cantidad": 1,
+                "p_unitario": 65927.87,
+                "descripcion": "SERVICIO DE TELECOMUNICACIONES GRAVADO TASA BASICA"
+            },
+            {
+                "monto": 4025.35,
+                "cantidad": 1,
+                "p_unitario": 4025.35,
+                "descripcion": "SERVICIO DE TELECOMUNICACIONES NO GRAVADO"
+            },
+            {
+                "monto": 61.48,
+                "cantidad": 1,
+                "p_unitario": 61.48,
+                "descripcion": "ENVIO DE FACTURA"
+            },
+            {
+                "monto": -0.35,
+                "cantidad": 1,
+                "p_unitario": -0.35,
+                "descripcion": "REDONDEO REDONDEO"
+            }
+        ],
+        "total": 84532.0,
+        "codigo": "G226142",
+        "moneda": "UYU",
+        "tax_cod": "22%",
+        "domicilio": "Montevideo",
+        "__mcp_status": "TAG",
+        "proveedor_id": "211003420017",
+        "no_facturable": -0.35,
+        "__mcp_timestamp": "2025-11-12T23:06:23.292956+00:00",
+        "numero_de_cuenta": "04093602000189",
+        "proveedor_nombre": "Administración Nacional de Telecomunicaciones",
+        "__mcp_document_id": 4632,
+        "__mcp_human_status": "PROCESSING",
+        "__mcp_reference_key": null,
+        "subtotal_gravado_22": 65989.35,
+        "adenda_de_la_factura": "Número de cuenta: 04093602000189 Código de distribución: 01 45 004 000000 Vto. próxima factura: 19-12-2025 Servicios incluidos: SERVICIO PC9249 - P90285 - P90288 Info debito bancario: 128SCOTIABANK Código de barras: 82111G 0226142202511010000084532000000065989350002104093602000189740",
+        "__mcp_document_file_url": "https://rpamaker.blob.core.windows.net/adp/Documents/invoice/1-11 ANTEL _EFacturaG 226142 Vto 20-11.pdf",
+        "__mcp_document_file_name": "1-11 ANTEL _EFacturaG 226142 Vto 20-11.pdf"
+    },
+    "expected_output": [
+        {
+            "DocDate": "2025-11-01",
+            "TaxDate": "2025-11-01",
+            "Comments": "Consumo Octubre enlaces",
+            "JournalMemo": "Factura de ANTEL por servicios de Telefonía / Datos",
+            "U_SE_TipoVenta": "13342",
+            "ItemCode": "1",
+            "Quantity": 1,
+            "UnitPrice": "65.989,35",
+            "TaxCode": "IVA_CTB2",
+            "WarehouseCode": "01",
+            "CostingCode4": "301.9999",
+            "U_TipoMovimiento": "5"
+        },
+        {
+            "DocDate": "2025-11-01",
+            "TaxDate": "2025-11-01",
+            "Comments": "Consumo Octubre enlaces",
+            "JournalMemo": "Factura de ANTEL por servicios de Telefonía / Datos",
+            "U_SE_TipoVenta": "13342",
+            "ItemCode": "1",
+            "Quantity": 1,
+            "UnitPrice": "4.086,83",
+            "TaxCode": "IVA_EXE",
+            "WarehouseCode": "01",
+            "CostingCode4": "301.9999",
+            "U_TipoMovimiento": "5"
+        },
+        {
+            "DocDate": "2025-11-01",
+            "TaxDate": "2025-11-01",
+            "Comments": "Gastos no deducibles (AD)",
+            "JournalMemo": "Factura de ANTEL por Gastos no deducibles",
+            "U_SE_TipoVenta": "13371",
+            "ItemCode": "1",
+            "Quantity": 1,
+            "UnitPrice": "-0,35",
+            "TaxCode": "IVA_EXE",
+            "WarehouseCode": "01",
+            "CostingCode4": "301.9998",
+            "U_TipoMovimiento": "5"
+        }
+    ]
+}
+
